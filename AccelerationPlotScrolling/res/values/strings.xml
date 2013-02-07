@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <string name="app_name">AccelLog Scrolling</string>
+    <string name="no_data">Keine Daten</string>    
+               
+    <string name="menu_logging">Logging An/Aus</string>
+    <string name="menu_settings">Einstellungen</string>   
+    <string name="menu_delete_file">Logdatei löschen</string>   
+    <string name="menu_normalize">Welt-/Gerätekoordinaten</string>   
+    <string name="menu_exit">Beenden</string> 
+            
+    <string name="settings_logfile_name">Logdatei: </string>
+    <string name="settings_interval_label">Zeitintervall (Millisekunden)</string>                 
+    <string name="settings_colorX">Farbe X-Achse: </string>    
+    <string name="settings_colorY">Farbe Y-Achse: </string>  
+    <string name="settings_colorZ">Farbe Z-Achse: </string>     
+    <string name="settings_cancel">Abbrechen</string>
+    <string name="settings_ok">OK</string>        
+    <string name="settings_reset">Zurücksetzen</string>    
+        
+    <string name="message_logging_on">Sensorwerte werden exportiert nach</string>
+    <string name="message_logging_off">Sensorwerte werden nicht mehr exportiert</string>   
+    <string name="message_worldcoord">Beschleunigung in Weltkoordinaten</string>
+    <string name="message_devicecoord">Beschleunigung in Gerätekoordinaten</string>
+    <string name="message_logfile_delete_success">wurde gelöscht</string>
+    <string name="message_logfile_delete_failure">Konnte nicht gelöscht werden</string> 
+                   
+</resources>

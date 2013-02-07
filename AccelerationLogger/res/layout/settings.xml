@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+      
+    <TextView
+        android:id="@+id/settings_filename_label"          
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_logfile_name" />
+    <EditText
+        android:id="@+id/settings_filename"          
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+    
+    <TextView
+        android:id="@+id/settings_updaterate_label"          
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_updaterate_label" />
+    <EditText
+        android:id="@+id/settings_updaterate"          
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+            
+      
+    <TextView
+        android:id="@+id/settings_colorX_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_colorX" />
+    <EditText
+        android:id="@+id/settings_colorX"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+    
+    <TextView
+        android:id="@+id/settings_colorY_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_colorY" />
+    <EditText
+        android:id="@+id/settings_colorY"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+    
+    <TextView
+        android:id="@+id/settings_colorZ_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_colorZ" />
+    <EditText
+        android:id="@+id/settings_colorZ"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background" />
+    
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">           
+        
+        <Button
+            android:id="@+id/settings_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_ok" />    
+        
+        <Button
+            android:id="@+id/settings_cancel"   
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_cancel" />
+        
+        <Button
+            android:id="@+id/settings_reset"   
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_reset" /> 
+                       
+    </LinearLayout>                                 
+</LinearLayout>
+
+
+
+
